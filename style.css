@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 @media screen and (min-width: 200px) and (max-width: 640px) {
 iframe {
  height:210px;
@@ -20,8 +18,8 @@ iframe {
 }
 
 h2{
-    font-family: 'Merriweather', serif;
-=======
+    font-family: 'Merriweather', serif; }
+
 .bg-ac1 {
     background:linear-gradient(
       rgba(22, 22, 0, 0.45), 
@@ -35,7 +33,7 @@ h2{
 .bg-ac1:hover {
     background-image: url(Image/Scooter/trottinette_3.jpg);
     border: solid 3px #222222;
->>>>>>> alex
+
 }
 .bg-ac2 {
     background: linear-gradient(
@@ -46,9 +44,9 @@ h2{
     background-repeat: no-repeat;
     background-position: center;
     height: 49%;
-    z-index: 1;
+    z-index: 1; }
 
-<<<<<<< HEAD
+
 h5{
   font-family: 'Merriweather', serif;
 
@@ -56,8 +54,7 @@ h5{
 
 .bg-light {
   background-color: #fff!important;
-=======
->>>>>>> alex
+
 }
 
 .bg-ac2:hover {
@@ -81,27 +78,16 @@ h5{
     border: solid 3px #222222;
 }
 
-<<<<<<< HEAD
-  #bandemmm{
-    margin-top: 20px;
-  }
 
-  
+ 
 
-.fondmm{
-  color: #898989;
-background-color: #f1f1f1;
-padding-top: 30px;
-margin-top:20px;
-=======
-.bg-ac4 {
+    .bg-ac4 {
     background:linear-gradient(
       rgba(22, 22, 0, 0.45), 
       rgba(0, 0, 0, 0.45)),
       url(Image/accessoires.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
->>>>>>> alex
 }
 
 .bg-ac4:hover {
@@ -156,7 +142,18 @@ margin-top:20px;
      
 }
 
-<<<<<<< HEAD
+#bandemmm{
+    margin-top: 20px;
+  }
+
+  
+
+.fondmm{
+  color: #898989;
+background-color: #f1f1f1;
+padding-top: 30px;
+    margin-top:20px;}
+
 
 .aligmm{
   display: inline;
@@ -176,11 +173,11 @@ margin-top:20px;
 
 .modal-footer{
   padding-bottom: 33px;
-=======
+}
 .text-ac {
     position: relative;
     }
 h2 {
 font-family: 'Merriweather', sans-serif;
->>>>>>> alex
+
 }
