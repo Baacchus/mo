@@ -3,10 +3,10 @@ body{
 }
 
 @media screen and (min-width: 200px) and (max-width: 640px) {
-  iframe {
+iframe {
  height:210px;
  
-  }
+}
 .colormm{
   padding-top: 110px;
 }
@@ -15,18 +15,19 @@ body{
   z-index: 1000;
   padding-left: 0px;
   padding-right: 0px;
-  
 }
-
-
-
-  .navbar{
+.navbar{
     padding: 0px!important;
-  }
-  }
+}
+}
 
 h2{
     font-family: 'Merriweather', serif;
+}
+
+h5{
+  font-family: 'Merriweather', serif;
+
 }
 
 .bg-light {
@@ -66,6 +67,12 @@ h2{
     margin-top: 20px;
   }
 
+  #bandemmm{
+    margin-top: 20px;
+  }
+
+  
+
 .fondmm{
   color: #898989;
 background-color: #f1f1f1;
@@ -100,3 +107,22 @@ a.nav-foot.active{
 }
 
 
+.aligmm{
+  display: inline;
+}
+
+.sizemm{
+  width:100%;
+  border: 2px solid #f1f1f1;
+  
+  margin-bottom: 50px;
+}
+
+.pricemm{
+  font-size: 30px;
+  color: #898989;
+}
+
+.modal-footer{
+  padding-bottom: 33px;
+}
