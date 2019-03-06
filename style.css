@@ -1,7 +1,5 @@
-body{
-    font-family: 'Roboto', sans-serif;
-}
 
+<<<<<<< HEAD
 @media screen and (min-width: 200px) and (max-width: 640px) {
 iframe {
  height:210px;
@@ -23,8 +21,34 @@ iframe {
 
 h2{
     font-family: 'Merriweather', serif;
+=======
+.bg-ac1 {
+    background:linear-gradient(
+      rgba(22, 22, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)), 
+      url(Image/Scooter/trottinette_2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 }
 
+.bg-ac1:hover {
+    background-image: url(Image/Scooter/trottinette_3.jpg);
+    border: solid 3px #222222;
+>>>>>>> alex
+}
+.bg-ac2 {
+    background: linear-gradient(
+      rgba(22, 22, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)),  
+      url(Image/hoverboard/hoverboard_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 49%;
+    z-index: 1;
+
+<<<<<<< HEAD
 h5{
   font-family: 'Merriweather', serif;
 
@@ -32,41 +56,32 @@ h5{
 
 .bg-light {
   background-color: #fff!important;
+=======
+>>>>>>> alex
 }
 
-.nav-link{
-    font-size: 16px;
-    color:#222222 !important;
-  }
-  
-  .nav-link:hover{
-    font-size: 16px;
-    color:#ef0300 !important;
-    
-  }
+.bg-ac2:hover {
+    background-image: url(Image/hoverboard/hoverboard_5.jpg);
+    border: solid 3px #222222;
+}
 
-  a.nav-link.active{
-    color:#898989 !important;
-  }
-  
-  .colormm{
-    background-color: #222222; 
-    color:#fff; 
-    text-align: center;
-  }
+.bg-ac3 {
+    background:linear-gradient(
+      rgba(22, 22, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)),
+      url(Image/E-bike/velo_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 49%;
+}
 
-  .picto{
-    display: inline-block;
-  }
+.bg-ac3:hover {
+    background-image: url(Image/E-bike/velo_2.jpg);
+    border: solid 3px #222222;
+}
 
-  .rougemm {
-    color:#ef0300;
-  }
-
-  #bandemm{
-    margin-top: 20px;
-  }
-
+<<<<<<< HEAD
   #bandemmm{
     margin-top: 20px;
   }
@@ -78,34 +93,70 @@ h5{
 background-color: #f1f1f1;
 padding-top: 30px;
 margin-top:20px;
+=======
+.bg-ac4 {
+    background:linear-gradient(
+      rgba(22, 22, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)),
+      url(Image/accessoires.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+>>>>>>> alex
+}
+
+.bg-ac4:hover {
+    background-image: url(Image/accessoires_1.jpg);
+    border: solid 3px #222222;
 }
 
 
+.row .ac{
+    height: 450px;
 
-.bmm{
-  color:#222222;
+} 
+
+@media screen and (max-width: 576px) { 
+    .row .ac {
+        height: 250px;
+} 
+    .bg-ac1 {
+        background-position: center;
+    }
+    .bg-ac4 {
+        background-position: center;
+    }
+    
+    h2 {
+        font-size: 15px;
+    }
+    
+    }
+
+ @media screen and (max-width: 768px){ 
+
+     .bg-ac1{
+        background-position: center;
+}
+     .bg-ac4{
+        background-position: center;
+} 
+     .ac {
+        padding: 0;
+     }
+     .row .ac {
+        height: 175px;
+} 
+     .bg-ac2 {
+        height: 50%;
+} 
+     .bg-ac3 {
+        height: 50%;
+} 
+     
+     
 }
 
-
-.alimm{
-  text-align: center;
-}
-
-.nav-foot{
-  font-size: 16px;
-  color:#222222 !important;
-}
-
-.nav-foot:hover{
-  font-size: 16px;
-  color:#ef0300 !important;
-  
-}
-
-a.nav-foot.active{
-  color:#898989 !important;
-}
-
+<<<<<<< HEAD
 
 .aligmm{
   display: inline;
@@ -125,4 +176,11 @@ a.nav-foot.active{
 
 .modal-footer{
   padding-bottom: 33px;
+=======
+.text-ac {
+    position: relative;
+    }
+h2 {
+font-family: 'Merriweather', sans-serif;
+>>>>>>> alex
 }
