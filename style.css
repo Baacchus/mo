@@ -144,7 +144,7 @@ a.nav-foot.active {
     position: absolute;
     font-size: 10px;
     z-index: 1;
-    margin-bottom: 50px;
+    margin-bottom: 50px!important;
   }
   .paragraphe_md {
     position: relative;
@@ -281,7 +281,6 @@ hr {
   font-style: 'Roboto', arial, cursive;
   display: block;
   margin: auto;
-  vertical-align: middle;
   top: 60px;
 }
 
@@ -342,8 +341,12 @@ hr {
   font-style: 'Roboto', arial, cursive;
   display: block;
   margin: auto;
-  vertical-align: middle;
   top: 60px;
+}
+
+.button_md:hover {
+  background-color: #ef0300;
+  border-color: #ef0300;
 }
 
 .button_md:hover {
@@ -748,61 +751,21 @@ a.nav-foot.active {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 2400px) {
   .paragraphe_md {
     vertical-align: middle !important;
   }
   .bloc_md {
     padding-top: 110px;
     position: relative;
+  }
+  .featmm {
+    margin-top: 10%;
   }
 }
 
 .container {
   vertical-align: middle;
-}
-
-@media screen and (min-width: 200px) and (max-width: 640px) {
-  .paragraphe_md {
-    top: 0px;
-  }
-  .h4_md {
-    font-size: 25px;
-  }
-  .h3_md {
-    font-size: 30px !important;
-  }
-  .button_md {
-    vertical-align: middle !important;
-    top: 10px !important;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .paragraphe_md {
-    width: 90%;
-    padding-top: 10px !important;
-  }
-  .h4_md {
-    font-size: 20px !important;
-  }
-  .h3_md {
-    font-size: 25px !important;
-  }
-  .button_md {
-    vertical-align: middle !important;
-    top: 10px !important;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
-  .paragraphe_md {
-    vertical-align: middle !important;
-  }
-  .bloc_md {
-    padding-top: 110px;
-    position: relative;
-  }
 }
 
 .imd {
