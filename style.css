@@ -1,116 +1,51 @@
+.first_banner_mc,.second_banner_mc,.third_banner_mc{
+    position:relative;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
 
-.bg-ac1 {
-    background:linear-gradient(
-      rgba(22, 22, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)), 
-      url(Image/Scooter/trottinette_2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    
+.title-image_mc{
+    font-size:1.5em;
+    font-family: Merriweather,Times,serif;
+    color:#222222;
+    padding-top:2%;
+    padding-bottom: 8%;
+    background:rgba(188,190,173, .6);
+    position:absolute;
+    text-align: center;
+    top:30% ;
+    width: 100%;
 }
 
-.bg-ac1:hover {
-    background-image: url(Image/Scooter/trottinette_3.jpg);
-    border: solid 3px #222222;
-}
-.bg-ac2 {
-    background: linear-gradient(
-      rgba(22, 22, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)),  
-      url(Image/hoverboard/hoverboard_1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 49%;
-    z-index: 1;
-
+.text-generality-product_mc{
+    font-size:1em;
+    font-family: Roboto,Times,serif;
+    color:#222222;
+    position:absolute;
+    text-align: center;
+    top:42% ;
+    width: 100%;
 }
 
-.bg-ac2:hover {
-    background-image: url(Image/hoverboard/hoverboard_5.jpg);
-    border: solid 3px #222222;
+.scooter_mc,.ebike_mc,.hoverboard_mc{
+    margin-bottom: 130px;
 }
 
-.bg-ac3 {
-    background:linear-gradient(
-      rgba(22, 22, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)),
-      url(Image/E-bike/velo_1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 49%;
+@media screen and (min-width: 200px) and (max-width: 640px) {
+.text-generality-product_mc{
+    background:rgba(188,190,173, .6);
+    position:relative;
+    font-size:15px;
 }
-
-.bg-ac3:hover {
-    background-image: url(Image/E-bike/velo_2.jpg);
-    border: solid 3px #222222;
+.title-image_mc{
+    background:rgba(188,190,173, .6);
+    position:relative;
+    font-size:20px;
+    padding-bottom: 2%;
+    margin-bottom: 0;
 }
-
-.bg-ac4 {
-    background:linear-gradient(
-      rgba(22, 22, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)),
-      url(Image/accessoires.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
+.scooter_mc,.ebike_mc,.hoverboard_mc{
+    margin-bottom: 20px;
 }
-
-.bg-ac4:hover {
-    background-image: url(Image/accessoires_1.jpg);
-    border: solid 3px #222222;
-}
-
-
-.row .ac{
-    height: 450px;
-
-} 
-
-@media screen and (max-width: 576px) { 
-    .row .ac {
-        height: 250px;
-} 
-    .bg-ac1 {
-        background-position: center;
-    }
-    .bg-ac4 {
-        background-position: center;
-    }
-    
-    h2 {
-        font-size: 15px;
-    }
-    
-    }
-
- @media screen and (max-width: 768px){ 
-
-     .bg-ac1{
-        background-position: center;
-}
-     .bg-ac4{
-        background-position: center;
-} 
-     .ac {
-        padding: 0;
-     }
-     .row .ac {
-        height: 175px;
-} 
-     .bg-ac2 {
-        height: 50%;
-} 
-     .bg-ac3 {
-        height: 50%;
-} 
-     
-     
-}
-
-.text-ac {
-    position: relative;
-    }
-h2 {
-font-family: 'Merriweather', sans-serif;
 }
