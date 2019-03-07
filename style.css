@@ -151,7 +151,7 @@ a.nav-foot.active{
 	position: absolute;
 	font-size: 10px;
   z-index: 1;
-  margin-bottom:50px!important;
+  margin-bottom:50px;
 }
 
 .paragraphe_md{
