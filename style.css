@@ -519,6 +519,7 @@ a {
 
 .container_mc img:hover {
   border: 0px solid white;
+  
 }
 
 .w-100 {
@@ -541,7 +542,7 @@ a {
   background: rgba(188, 190, 173, .6);
   position: absolute;
   text-align: center;
-  top: 30%;
+  top: 60%;
   width: 100%;
 }
 
@@ -551,7 +552,7 @@ a {
   color: #222222;
   position: absolute;
   text-align: center;
-  top: 42%;
+  top: 75%;
   width: 100%;
 }
 
@@ -571,6 +572,7 @@ a {
     font-size: 20px;
     padding-bottom: 2%;
     margin-bottom: 0;
+    
   }
   .scooter_mc, .ebike_mc, .hoverboard_mc {
     margin-bottom: 20px;
