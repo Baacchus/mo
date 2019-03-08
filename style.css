@@ -734,6 +734,46 @@ a.nav-foot.active {
     vertical-align: middle;
     color: #898989;
   }
+
+  .aliac {
+    text-align: center;
+  }
+
+  .aliac1 {
+    text-align: center;
+  }
+  .aliac img {
+    float: center !important;
+    object-fit: contain;
+  }
+  .aliac h2 {
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+  
+  }
+  .aliac p {
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+  }
+  .aliac1 img {
+    float: center !important;
+    object-fit: contain;
+  }
+  .aliac1 h2 {
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+  
+  }
+  .aliac1 p {
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -751,6 +791,55 @@ a.nav-foot.active {
     vertical-align: middle !important;
     top: 10px !important;
   }
+  .aliac img {
+    float: left;
+    object-fit: contain;
+    margin-left: 60px;
+    
+  }
+  
+  .aliac h2 {
+    font-size:20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+  
+  }
+  .aliac p {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+  }
+  
+  .bandeac {
+    justify-content: space-between;
+  }
+  .ac {
+    vertical-align: none;
+  }
+  
+  .aliac1 img {
+    float: left;
+    object-fit: contain;
+    margin-left: 60px;
+  }
+  
+  .aliac1 h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder; }
+  
+  .aliac1 p {
+      font-size: 15px;
+      font-style: italic;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      color: gray;
+    }
+  
 }
 
 @media screen and (min-width: 1024px) and (max-width: 2400px) {
@@ -764,6 +853,55 @@ a.nav-foot.active {
   .featmm {
     margin-top: 10%;
   }
+  .aliac img {
+    float: left;
+    object-fit: contain;
+    margin-left: 60px;
+    
+  }
+  
+  .aliac h2 {
+    font-size:20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+  
+  }
+  .aliac p {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+  }
+  
+  .bandeac {
+    justify-content: space-between;
+  }
+  .ac {
+    vertical-align: none;
+  }
+  
+  .aliac1 img {
+    float: left;
+    object-fit: contain;
+    margin-left: 60px;
+  }
+  
+  .aliac1 h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder; }
+  
+  .aliac1 p {
+      font-size: 15px;
+      font-style: italic;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      color: gray;
+    }
+  
 }
 
 .container {
@@ -949,4 +1087,6 @@ hr {
   .espmm {
     margin-bottom: 50px;
   }
+ 
 }
+
