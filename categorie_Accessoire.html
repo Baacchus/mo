@@ -80,17 +80,17 @@
   <!-- FEATURES PRODUCT -->
   <div class="container">
     <div class="container-fluid">
-      <h3 class="h3_jf">Features Product</h3>
+      <h3 class="h3_jf" data-sr="enter top, move 200px, over 1s, wait 0.5s">Features Product</h3>
 
       <!-------- BEST SELLS / PROMO --------->
-      <ul class="nav nav-pills">
+      <ul class="nav nav-pills" data-sr="enter right, move 200px, over 1s, wait 0.5s">
         <li class="active_jf"><a href="#">BEST SELLER</a></li>
         <li class="disabled_jf"><a href="#">ON SALE</a></li>
         <li class="disabled_jf"><a href="#">TOP VIEW</a></li>
       </ul>
 
       <!--------------- NAVPILLS --------------->
-      <div class="row row_jf">
+      <div class="row row_jf" data-sr="enter left, move 200px, over 1s, wait 0.5s">
         <div class="col-sm-6 col-md-3 col_jf">
           <div class="card_jf">
             <img src="Image/Accesories/accessoire_1.jpg" alt="hoverboard_best" class="d-block w-100" data-toggle="modal"
@@ -136,7 +136,7 @@
           </div>
         </div>
       </div>
-      <div class="row row_jf">
+      <div class="row row_jf" data-sr="enter right, move 200px, over 1s, wait 0.5s">
         <div class="col-sm-6 col-md-3 col_jf">
           <div class="card_jf">
             <img src="Image/Accesories/accessoire_5.jpg" alt="hoverboard_best" class="d-block w-100">
@@ -186,7 +186,7 @@
   </div>
 
   <!-- Footer -->
-  <footer>
+  <footer data-sr="enter bottom, move 200px, over 1s, wait 0.5s">
     <div class="container-fluid fondmm">
       <div class="container">
         <div class="row">
@@ -278,6 +278,13 @@
   </div>
 
   <!-- Optional JavaScript -->
+  <script src="main.js"></script>
+  <script type='text/javascript' src='Reveal.min.js'></script>
+  
+  <script>
+  window.scrollReveal = new scrollReveal();
+  </script>
+  
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

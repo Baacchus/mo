@@ -69,10 +69,10 @@
   <div class="container-fluid ">
     <img class="imd" src="Image/Image_Home/About.png" alt="image_Fond">
     <div class="bloc_md">
-      <h3 class="h3_md">About us</h3>
-      <hr>
-      <h4 class="h4_md">Lorem ipsum dolor sit amet</h4>
-      <p class="paragraphe_md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales et neque eget
+      <h3 class="h3_md" data-sr="enter top, move 200px, over 1s, wait 0.5s">About us</h3>
+      <hr data-sr="enter top, move 200px, over 1s, wait 0.7s">
+      <h4 class="h4_md" data-sr="enter bottom, move 200px, over 1s, wait 0.5s">Lorem ipsum dolor sit amet</h4>
+      <p class="paragraphe_md" data-sr="enter top, move 200px, over 1s, wait 0.7s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales et neque eget
         egestas. Morbi placerat vel magna malesuada posuere. In non enim sodales, luctus lorem sed, rhoncus arcu.
         sollicitudin sapien ut sodales posuere. Donec sit amet placerat odio, non consequat nisl. Fusce dictum iictum id
         purus ac dict d purus ac dictum.</p>
@@ -81,7 +81,7 @@
   </div>
 
 
-  <div class="container formulaire">
+  <div class="container formulaire" data-sr="enter top, move 200px, over 0.5s, wait 0.5s">
     <form>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address:</label>
@@ -106,10 +106,10 @@
 
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.2486673943604!2d4.825337515547547!3d45.746160522605685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea4ab96b2285%3A0xd07b1fb24dc8242f!2s17+Rue+Delandine%2C+69002+Lyon!5e0!3m2!1sfr!2sfr!4v1551878236824"
-    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen data-sr="enter top, move 200px, over 1s, wait 0.5s"></iframe>
 
   <!-- Footer -->
-  <footer>
+  <footer data-sr="enter bottom, move 200px, over 1s, wait 0.5s">
     <div class="container-fluid fondmm">
       <div class="container">
         <div class="row">
@@ -155,6 +155,13 @@
 
 
   <!-- Optional JavaScript -->
+  <script src="main.js"></script>
+  <script type='text/javascript' src='Reveal.min.js'></script>
+  
+  <script>
+  window.scrollReveal = new scrollReveal();
+  </script>
+  
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
